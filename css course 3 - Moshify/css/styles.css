@@ -778,3 +778,39 @@ a {
     max-width: 500px;
     margin: 0 auto;
 }
+
+/* Features Block */
+
+.feature__content {
+    margin: 3rem 2rem;
+}
+
+.feature__content .icon-container {
+    margin: 1.5rem 0;
+}
+
+.feature__image {
+    width: 100%;
+}
+
+.block-feature--desktop {
+    display: none;
+}
+
+.block-feature--mobile {
+    display: block;
+}
+
+.feature__header {
+    margin-bottom: 6rem;
+}
+
+@media screen and (min-width: 768px) {
+    .block-feature--desktop {
+        display: block;
+    }
+    
+    .block-feature--mobile {
+        display: none;
+    }
+}
